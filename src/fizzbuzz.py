@@ -1,9 +1,17 @@
+
+def IsMultipleOf3(number):
+    return number % 3 == 0
+
+def IsMultipleOf5(number):
+    return number % 5 == 0
+
+
 def FizzBuzzOf(number):
-    if number % 3 == 0 and number % 5 == 0:
+    if IsMultipleOf3(number) and IsMultipleOf5(number):
         return "FizzBuzz"
-    if number % 3 == 0:
+    if IsMultipleOf3(number):
         return "Fizz"
-    if number % 5 == 0:
+    if IsMultipleOf5(number):
         return "Buzz"
     return number
 
