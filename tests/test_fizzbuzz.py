@@ -13,5 +13,9 @@ def test_fizzBuzzOf5IsBuzz():
     assert FizzBuzzOf(5) == "Buzz"
 
 
-def test_fizzBuzzof15IsFizzBuzz():
+def test_fizzBuzzOf15IsFizzBuzz():
     assert FizzBuzzOf(15) == "FizzBuzz"
+
+
+def test_fizzBuzzOf6IsFizz():
+    assert FizzBuzzOf(6) == "Fizz"

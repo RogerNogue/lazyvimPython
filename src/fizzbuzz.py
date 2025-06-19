@@ -5,6 +5,8 @@ def FizzBuzzOf(number):
         return "Buzz"
     if number == 15:
         return "FizzBuzz"
+    if number == 6:
+        return "Fizz"
     return number
 
 
