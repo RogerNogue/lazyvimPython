@@ -13,6 +13,14 @@ def test_fizzBuzzOf5IsBuzz():
     assert FizzBuzzOf(5) == "Buzz"
 
 
+def test_fizzBuzzOf10IsBuzz():
+    assert FizzBuzzOf(10) == "Buzz"
+
+
+def test_fizzBuzzOf4Is4():
+    assert FizzBuzzOf(4) == 4
+
+
 def test_fizzBuzzOf15IsFizzBuzz():
     assert FizzBuzzOf(15) == "FizzBuzz"
 
